@@ -7,7 +7,7 @@ public abstract class SlowTyper
                 Thread.sleep(milliseconds);
                 System.out.print(x[i]);
             } catch(Exception e) {
-                System.err.println("Error in printSlowly(): " + e.toString());
+                System.err.println("Error in SlowTyper.print(): " + e.toString());
                 break;
             }
         }
